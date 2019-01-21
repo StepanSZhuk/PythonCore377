@@ -1,0 +1,12 @@
+#Перевірити чи список містить непарні числа.(Підказка: використати оператор break)
+
+a=[2,4,6,8,9,10]
+contain_odd=False
+for item in a:
+    if not item%2==0:
+        contain_odd=True
+        break
+if contain_odd==True:
+    print("This list contains odd numbers")
+else:
+    print("There are no odd numbers in this list")
