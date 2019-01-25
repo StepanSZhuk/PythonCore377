@@ -9,3 +9,12 @@ def makeMove(sticks):
         return 2
     elif sticks == 1:
         return 1
+
+    
+    # Varient 2
+    
+def makeMove(sticks):
+    if sticks % 4 == 0:
+        return 1 
+    else:
+        return sticks % 4
